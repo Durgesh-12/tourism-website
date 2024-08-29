@@ -106,3 +106,67 @@
     padding-left:0 ;
     padding-right:0 ;
   }
+  .search{
+    margin-left: 1rem;
+  }
+
+ 
+
+.login {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+    border-radius: 2rem;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    
+}
+
+.input-group input {
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem; /* Apply border-radius to the input field */
+  font-size: 1rem;
+}
+
+.input-group {
+  border-radius: 0.5rem; /* Apply border-radius to the entire input-group */
+}
+.input-group label {
+justify-content: center;
+
+}
+
+
+
+
+.error {
+    color: red;
+    margin-bottom: 15px;
+}
+.full{
+  
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('durgeshamogha.jpg');
+    background-size: cover; /* This makes the image cover the entire background */
+    background-position: center; /* This centers the image */
+    background-repeat: no-repeat; /* This prevents the image from repeating */
+    background-attachment: fixed; /* This makes the background stay in place when scrolling */
+    border-radius: 16rem;
+}

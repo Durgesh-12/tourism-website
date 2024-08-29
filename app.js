@@ -6,6 +6,7 @@ const path=require("path");
 const methodoverride=require("method-override")
 const MONGO_URL="mongodb://127.0.0.1:27017/wanderlust";
 const ejsMate=require("ejs-mate");
+
 async function main(){
     await mongoose.connect(MONGO_URL);
 }
@@ -22,6 +23,13 @@ app.get("/",async(req,res)=>{
   const allListings = await Listing.find({});
   res.render("./listings/index.ejs",{allListings});
 });
+//login page
+app.get("/listings/login",(req,res)=>{
+  res.render("./listings/login.ejs");
+})
+
+
+
 app.get("/listings",async (req,res)=>{
   const allListings = await Listing.find({});
   res.render("./listings/index.ejs",{allListings});
